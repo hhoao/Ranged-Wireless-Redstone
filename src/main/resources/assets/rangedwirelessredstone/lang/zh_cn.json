@@ -1,0 +1,16 @@
+{
+  "itemGroup.rangedwirelessredstone": "范围无线红石",
+
+  "block.rangedwirelessredstone.redstone_transmitter": "信号发送器",
+  "message.block.rangedwirelessredstone.redstone_transmitter": "无线传输红石从邻近街区接收到的信号.",
+  "block.rangedwirelessredstone.redstone_receiver": "信号接收器",
+  "message.block.rangedwirelessredstone.redstone_receiver": "无线接收和输出红石信号，由附近的发射器在同一频道上传输.",
+  "item.rangedwirelessredstone.tiny_redstone_transmitter": "微型红石发射机",
+  "message.item.rangedwirelessredstone.tiny_redstone_transmitter": "无线传输从邻近细胞接收到的红石信号.",
+  "item.rangedwirelessredstone.tiny_redstone_receiver": "小型红石接收器",
+  "message.item.rangedwirelessredstone.tiny_redstone_receiver": "无线接收和输出红石信号，由附近的发射器在同一频道上传输.",
+
+  "rangedwirelessredstone.gui.channel": "调频",
+  "rangedwirelessredstone.gui.close": "关闭",
+  "rangedwirelessredstone.tooltip.press_shift": "--按下Shift显示更多信息--"
+}
