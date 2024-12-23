@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " P ",
+          " R ",
+          "SRS"
+        ],
+        "key": {
+          "P": {
+            "item": "minecraft:ender_pearl"
+          },
+          "R": {
+            "item": "minecraft:redstone"
+          },
+          "S": {
+            "item": "minecraft:smooth_stone_slab"
+          }
+        },
+        "result": {
+          "item": "rangedwirelessredstone:redstone_transmitter"
+        }
+      }
+    }
+  ]
+}
