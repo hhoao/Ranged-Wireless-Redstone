@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "T T",
+          "R R",
+          "STS"
+        ],
+        "key": {
+          "S": {
+            "item": "minecraft:smooth_stone_slab"
+          },
+          "T": {
+            "item": "minecraft:redstone_torch"
+          },
+          "R": {
+            "item": "minecraft:redstone"
+          }
+        },
+        "result": {
+          "item": "rangedwirelessredstone:redstone_receiver"
+        }
+      }
+    }
+  ]
+}

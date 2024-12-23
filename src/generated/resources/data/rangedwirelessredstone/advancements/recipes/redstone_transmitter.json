@@ -1,0 +1,45 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "rewards": {
+          "recipes": [
+            "rangedwirelessredstone:redstone_transmitter"
+          ]
+        },
+        "criteria": {
+          "has_redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:redstone"
+                  ]
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "rangedwirelessredstone:redstone_transmitter"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_redstone",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  ]
+}
